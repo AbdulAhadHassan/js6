@@ -139,3 +139,57 @@
 // document.write(`Round off value : ${Math.round(num)} <br>`)
 // document.write(`Floor value : ${Math.floor(num)} <br>`)
 // document.write(`Ceil value : ${Math.ceil(num)} <br>`)
+
+// Q3
+// var num = +prompt("Enter value to find its absolute value")
+// if ( num < 0 ){
+//     document.write(`absolute value of ${num} is ${-1*num}`)
+// }
+// else if( num > 0 ){
+//     document.write(`absolute value of ${num} is ${num}`)
+
+// }
+
+// // Q4
+// var ran  = Math.floor(Math.random() * 7)
+// document.write("Random dice value : " + ran )
+
+// Q5
+// var player1 = prompt("ENTER PLAYER ONE")
+// var player2 = prompt("ENTER PLAYER TWO")
+// var random  = Math.floor(Math.random() * 2)
+// if(random == 1){
+//     document.write("Heads "+player1+" wins ")
+// }
+// else{
+//     document.write("Tails "+player2+" wins ")
+// }
+
+// Q6
+// var ran  = Math.floor(Math.random() * 100) +1
+// document.write(`random number 1 to 100 : ${ran}`)
+
+// Q7
+// a
+// var weight = +prompt("whats the weight of the user")
+// document.write(`The weight of the user is ${Math.round(weight)}`)
+// //b
+// var weight = +prompt("whats the weight of the user")
+// document.write(`The weight of the user is ${Math.round(weight)}kgs`)
+// //c
+// var weight = +prompt("whats the weight of the user")
+// document.write(`The weight of the user is ${(weight)}kgs`)
+// //d
+// var weight = +prompt("whats the weight of the user")
+// document.write(`The weight of the user is ${(weight)}kilograms`)
+
+
+// Q8
+// var userInp = +prompt("Guess the secret number 1 to 10 ")
+// var ran  = Math.floor(Math.random() * 10) +1
+// if(ran == userInp ){
+//     document.write(`Congrets u have guessed the secret number correctly`)
+// }
+// else{
+//     document.write(`u lost better luck next time`)
+// }
